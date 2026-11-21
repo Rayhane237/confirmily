@@ -1,0 +1,23 @@
+node_modules/
+dist/
+coverage/
+
+# Runtime data: the JSON storage files contain business/customer data and are never committed.
+# The empty folder is kept via data/.gitkeep; run `npm run seed` for demo data.
+
+
+
+# Environment — never commit real secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
